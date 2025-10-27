@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "nodenext",
+        "moduleResolution": "nodenext", // or "Node10", "Node16", "Node20", "NodeNext"
+        "strict": false, // Disables all strict type-checking options
+        "noImplicitAny": true, // Ensures that variables with an unknown type are explicitly defined, avoiding the default any type
+        "strictNullChecks": true, // Prevents null and undefined from being assigned to any type unless explicitly allowed, enhancing null safety.
+        "sourceMap": true,
+        "outDir": "../tests-out",
+        "incremental": true,
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "composite": true,
+        "lib": ["esnext", "DOM"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "declaration": true,
+        "declarationMap": true,
+        "diagnostics": true,
+    }
+}
