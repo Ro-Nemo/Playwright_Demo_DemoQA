@@ -33,7 +33,6 @@ Demo Video Available
   
   <a href="https://fakerjs.dev/guide/">FakerJS</a> - Popular library that generates fake (but reasonable) data.
 
-  <a href="https://playwright.dev/docs/test-parameterize">Environment Variables</a> - Not to store secrets like usernames and passwords in the source code
 
 
   Credits: Ro-Nemo OCT/2025
